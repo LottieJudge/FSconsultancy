@@ -63,10 +63,17 @@ body{
 }
 
 /* masonry project */
+.work h1{
+  font-size: 4rem;
+  font-weight: 900;
+  color: black;
+  margin-left: 4vw;
+}
 .masonry-gallery {
   column-count: 3; 
   column-gap: 4vw; 
   padding: 20px;
+  
 }
 
 .masonry-item {
