@@ -2,12 +2,70 @@ body{
   font-family: 'Futura', sans-serif; 
   padding: 20px;
   margin: 0;
+  background-image: url('backgroundImages/josep-martins-l3-erg8nPRU-unsplash.jpg');
+}
+
+/* Navvy b */
+.navbar {
+  width: 100%;
+  background: transparent;
+  box-shadow: none;
+  padding: 15px 20px;
+  margin-bottom: 5vh;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  color: #333;
+  padding: 10px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #555;
+}
+
+/* Mobile Styles */
+@media (max-width: 991px) {
+  .navbar {
+    padding: 10px 15px;
+  }
+
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+
+  .navbar-toggler-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+  }
+
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px;
+    display: block;
+    font-size: 1.2rem;
+  }
 }
 
 /* masonry project */
 .masonry-gallery {
   column-count: 3; 
-  column-gap: 15px; 
+  column-gap: 4vw; 
   padding: 20px;
 }
 
