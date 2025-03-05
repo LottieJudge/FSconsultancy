@@ -2,16 +2,14 @@ body{
   font-family: 'Futura', sans-serif; 
   padding: 20px;
   margin: 0;
-  background-image: url('images/luca-nicoletti-fkA-hGDs-Y8-unsplash.jpg');
-  background-size: contain;
+  color: white;
+  background-color: black !important;  
 }
 
 /* Navvy b */
-
 .navbar {
   width: 100%;
   background: black;
-  opacity: 80%;
   box-shadow: none;
   padding: 15px 20px;
   margin-bottom: 5vh;
@@ -25,18 +23,19 @@ body{
 
 .navbar-nav .nav-link {
   font-size: 1.1rem;
-  color: whitesmoke;
+  color: white;
   padding: 10px 15px;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #555;
+  color: white;
 }
 
-/* mob styles */
+/* mob styles nav */
 @media (max-width: 991px) {
   .navbar {
     padding: 10px 15px;
+    color: white;
   }
 
   .navbar-toggler {
@@ -47,11 +46,11 @@ body{
   .navbar-toggler-icon {
     width: 30px;
     height: 30px;
+        
   }
 
   .navbar-collapse {
     text-align: center;
-    background: rgba(255, 255, 255, 0.9);
     padding: 10px;
   }
 
@@ -63,5 +62,55 @@ body{
     padding: 10px;
     display: block;
     font-size: 1.2rem;
+  }
+}
+
+/* Bento about */
+.bento-section {
+  background-color: transparent;
+  padding: 40px 20px;
+
+}
+
+.bento-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px;
+  align-items: center;
+}
+
+.bento-item img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: filter 0.3s ease;
+}
+
+.bento-item img:hover {
+  filter: grayscale(0);
+}
+
+.bento-item h2 {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.bento-item p {
+  font-size: 1rem;
+  color:white;
+  line-height: 1.6;
+}
+
+/* bento mob */
+@media (max-width: 768px) {
+  .bento-grid {
+    grid-template-columns: 1fr; 
+  }
+
+  .bento-item.about-text {
+    order: -1; 
   }
 }
