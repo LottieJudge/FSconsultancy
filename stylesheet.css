@@ -68,6 +68,8 @@ body{
   font-weight: 900;
   color: black;
   margin-left: 4vw;
+  font-family: "Kaushan Script", cursive;
+;
 }
 .masonry-gallery {
   column-count: 3; 

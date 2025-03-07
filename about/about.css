@@ -67,9 +67,14 @@ body{
 .bento-section {
   background-color: transparent;
   padding: 40px 20px;
+  color: white;
 
 }
 
+.bento-section h1{
+  font-family: "Kaushan Script", cursive;
+
+}
 .bento-grid {
   display: grid;
   grid-template-columns: 1fr 1fr; 
