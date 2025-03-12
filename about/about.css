@@ -209,8 +209,8 @@ body{
 .fernando-image {
   flex: 1;
   position: relative;
-  width: 220px;
-  height: 220px;
+  width: 15vw;
+  height: 15vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -220,16 +220,16 @@ body{
 
 .yellow-circle {
   position: absolute;   
-  width: 220px ;
-  height: 220px;
+  width: 15vw ;
+  height: 15vw;
   background-color: yellow;
   border-radius: 50%;
   z-index: 0; 
 }
 
 .fernando-image img {
-  width: 180px; 
-  height: 180px;
+  width: 13vw; 
+  height: 13vw;
   border-radius: 50%;
   object-fit: cover;
   position: relative;
@@ -237,7 +237,7 @@ body{
 
 }
 
-/* Mobile: Stack & Center Everything */
+/* Mobile -  Stack & Centre Everything */
 @media (max-width: 768px) {
   .about-contact-container {
     grid-template-columns: 1fr;
@@ -247,15 +247,6 @@ body{
   .about-fernando {
     flex-direction: column;
     text-align: center;
-  }
-
-  .fernando-image {
-    margin: 20px auto;
-  }
-
-  .yellow-circle {
-    width: 110%;
-    height: 110%;
   }
 
   .contact-section,
