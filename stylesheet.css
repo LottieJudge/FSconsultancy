@@ -86,6 +86,7 @@ body{
 
 .masonry-item img {
   width: 100%;
+
   display: block;
   border: 10px solid whitesmoke; 
   border-radius: 10px; 
@@ -172,7 +173,7 @@ body{
 .ourContact p,
 .ourContact a {
   font-size: 1.5em;
-  color: black; 
+  color: white; 
   margin-bottom: 3vh;
 }
 
@@ -197,7 +198,7 @@ body{
   align-items: center;
   width: 32px; 
   height: 32px;
-  color: black;
+  color: white;
 }
 
 @media (max-width: 768px) {

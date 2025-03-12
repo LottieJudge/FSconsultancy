@@ -63,7 +63,7 @@ body{
   }
 }
 
-/* Bento about */
+/* Bento about business*/
 .bento-section {
   background-color: transparent;
   padding: 40px 20px;
@@ -117,6 +117,9 @@ body{
     order: -1; 
   }
 }
+
+/* bento about fernando  */
+
 
 /* contact */
 .contactSection {
