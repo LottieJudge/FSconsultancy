@@ -120,19 +120,23 @@ body{
 /* Main Layout */
 .about-contact-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-template-columns: 1fr 1fr;
   gap: 50px;
   align-items: center;
   margin-top: 50px;
 }
 
-/* Left: Contact Form */
+/* Contact Form - on the left */
 .contact-section {
   background-color: transparent;
   padding: 40px;
+  margin-top: 1.5em;
+  margin-top: 25%;
 }
 
 .contact-section h2 {
+  font-family:  "Kaushan Script", cursive  ;
+  margin-top: 5vh;
   font-size: 1.5em;
   color: white;
 }
@@ -140,7 +144,7 @@ body{
 .contact-section form input,
 .contact-section form textarea {
   width: 100%;
-  margin-top: 1em;
+  height: auto;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -160,7 +164,7 @@ body{
 .contact-info {
   margin-top: 20px;
   color: white;
-  text-align: left; /* Desktop: Align left */
+  text-align: left;
 }
 
 .contact-info a {
@@ -179,20 +183,21 @@ body{
   color: white;
 }
 
-/* Right: About Fernando (Split 50/50) */
+/* About Fernando - right */
 .about-fernando {
   display: flex;
   align-items: center;
-  gap: 30px; /* Space between text & image */
+  gap: 30px;
   color: white;
+  
 }
 
 /* Text Section */
 .about-fernando-text {
-  flex: 1; /* Take half the space */
+  flex: 1;
 }
 
-.about-fernando h1 {
+.about-fernando h2 {
   font-family: "Kaushan Script", cursive;
 }
 
@@ -201,7 +206,6 @@ body{
   line-height: 1.6;
 }
 
-/* Image Section */
 .fernando-image {
   flex: 1;
   position: relative;
@@ -210,26 +214,27 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;   
+  border-radius: 50%;
 }
 
-/* Yellow Circle (Behind Image) */
 .yellow-circle {
-  position: absolute;
-  width: 130%;
-  height: 130%;
+  position: absolute;   
+  width: 220px ;
+  height: 220px;
   background-color: yellow;
   border-radius: 50%;
-  z-index: 0; /* Send to back */
+  z-index: 0; 
 }
 
-/* Fernando's Image */
 .fernando-image img {
-  width: 90%;
-  height: 90%;
+  width: 180px; 
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   position: relative;
-  z-index: 1; /* Ensure it appears above the yellow circle */
+  z-index: 1;
+
 }
 
 /* Mobile: Stack & Center Everything */
