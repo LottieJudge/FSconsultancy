@@ -1,8 +1,10 @@
+
 body{
   font-family: 'Futura', sans-serif; 
   padding: 20px;
   margin: 0;
-  background-image: url('backgroundImages/josep-martins-l3-erg8nPRU-unsplash.jpg');
+  background-color: whitesmoke !important;
+
 }
 
 /* Navvy b */
@@ -87,7 +89,7 @@ body{
 .masonry-item img {
   width: 100%;
   display: block;
-  border: 10px solid whitesmoke; 
+  border: 10px solid black; 
   border-radius: 10px; 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
@@ -118,6 +120,7 @@ body{
     padding: 50px;
     color: black;
     margin-top: 10vh;
+  
   }
 
   .contactFormContainer {
